@@ -68,7 +68,7 @@ a{
 .item {
     display: inline-block;
     width: 30%;
-    padding: 1,5%;
+    padding: 1.5%;
     font-size: 20px;
     text-align: center;
     line-height: 25px;
@@ -92,7 +92,7 @@ a{
     text-align: center;
     font-size: 30px;
     font-weight: bold;
-    padding: 20px;
+    padding: 50px;
     line-height: 40px;
     border-radius: 10px
 
@@ -111,18 +111,19 @@ a{
     
 }
 
-.produtos {
+.produtos, .depoimentos {
     text-align: center;
     margin: 50px 0px;
+
 }
 
-.produtos .titulo {
+.titulo {
     font-size: 45px;
     font-weight: bold;
 
 }
 
-.produtos .subtitulo {
+.subtitulo {
     font-size: 30px;
     font-weight: bold;
     color: #474747;
@@ -130,7 +131,7 @@ a{
 
 }
 
-.sublinhado{
+.sublinhado {
     width: 150px;
     background: #ffda1f;
     height: 10px;
@@ -140,8 +141,42 @@ a{
 
 }
 
-a:hover{
+a:hover {
     transition: 0.3s;
     opacity: 0.8;
+
+}
+
+footer {
+    background: #474747
+
+}
+
+footer .item {
+    color: #f4f4f4;
+
+}
+
+.depoimentos .item {
+    border: 1px solid #474747;
+    width: calc(30% - 2px);
+
+}
+
+.depoimentos img {
+    width: 100px;
+    border-radius: 50px;
+
+}
+
+.depoimentos .cliente {
+    margin-bottom: -100px;
+    padding-top: 10px;
+
+}
+
+.depoimentos .cliente .nome{
+    font-weight: bold;
+    text-transform: uppercase;
 
 }
